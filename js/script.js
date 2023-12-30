@@ -5,6 +5,10 @@ menuBar.addEventListener('click', () => {
   menuBar.classList.toggle('is-active');
 });
 
-window.addEventListener('scroll', () => {
-  menuNav.classList.toggle('nav-scroll-active'), window.scrollY > 0;
+window.addEventListener('scroll', function () {
+  if (window.scrollY > 0) {
+    menuNav.classList.add('nav-scroll-active');
+  } else {
+    menuNav.classList.remove('nav-scroll-active');
+  }
 });
