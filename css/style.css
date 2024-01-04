@@ -241,6 +241,11 @@
   line-height: 1.7;
 }
 
+.services .services-box .hero-img img {
+  width: 100%;
+  height: 250px;
+}
+
 .services .services-box .boxes {
   padding-top: 100px;
 }
@@ -254,8 +259,7 @@
 }
 
 .services .services-box .boxes .boxs img {
-  width: 100%;
-  height: 100px;
+  height: 75%;
 }
 
 .services .services-box .boxes .boxs .desc h1 {
@@ -288,7 +292,7 @@
 .contact {
   width: 100%;
   min-height: 100vh;
-  border-color: var(--primary-color);
+  background-color: var(--primary-color);
   padding-top: 100px;
   padding-bottom: 200px;
 }
